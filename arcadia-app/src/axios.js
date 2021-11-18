@@ -3,8 +3,9 @@ import store from "./store";
 
 export default function axiosSetUp() {
   // point to your API endpoint
-  //axios.defaults.baseURL = "https://protected-basin-16055.herokuapp.com/";
-  axios.defaults.baseURL = "http://localhost:8080/";
+  axios.defaults.baseURL = "https://protected-basin-16055.herokuapp.com/";
+  
+  //axios.defaults.baseURL = "http://localhost:8080/";
 
   // Add a request interceptor
   axios.interceptors.request.use(
